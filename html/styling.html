@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <!-- inline => (internal: tag name - class (class => tag name) -->
+    <style>
+      .paragraph {
+        color: violet;
+        background-color: aqua;
+        border-left: 20px dotted rgb(253, 10, 188);
+      }
+      p {
+        border-left: 20px dotted rgb(143, 143, 89);
+        border-right: 20px dashed rgb(255, 10, 10);
+        font-size: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 60px;
+        margin-bottom: 0px;
+        margin-top: 2px;
+        border-top-right-radius: 30px;
+      }
+
+      div {
+        background-color: rgb(8, 8, 241);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- 1- inline -->
+    <!-- <table border="1"></table> -->
+    <!-- <ul style="list-style-type: georgian">
+         color: red 
+      <li>items</li>
+    </ul> -->
+    <p
+      class="paragraph"
+      style="
+        color: violet;
+        background-color: rgb(119, 44, 44);
+        border-left: 20px dotted rgb(21, 76, 116);
+        color: #6c2e1f;
+      "
+    >
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi expedita
+      repellendus magni, voluptate excepturi iure quidem modi quaerat odit
+      dolores, optio officiis beatae architecto fugiat mollitia sapiente
+      necessitatibus, facere ipsum. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Animi expedita repellendus magni, voluptate excepturi
+      iure quidem modi quaerat odit dolores, optio officiis beatae architecto
+      fugiat mollitia sapiente necessitatibus, facere ipsum. Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Animi expedita repellendus magni,
+      voluptate excepturi iure quidem modi quaerat odit dolores, optio officiis
+      beatae architecto fugiat mollitia sapiente necessitatibus, facere ipsum.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi expedita
+      repellendus magni, voluptate excepturi iure quidem modi quaerat odit
+      dolores, optio officiis beatae architecto fugiat mollitia sapiente
+      necessitatibus, facere ipsum. Lorem ipsum dolor sit amet consectetur
+      adipisicing elit. Animi expedita repellendus magni, voluptate excepturi
+      iure quidem modi quaerat odit dolores, optio officiis beatae architecto
+      fugiat mollitia sapiente necessitatibus, facere ipsum. Lorem ipsum dolor
+      sit amet consectetur adipisicing elit. Animi expedita repellendus magni,
+      voluptate excepturi iure quidem modi quaerat odit dolores, optio officiis
+      beatae architecto fugiat mollitia sapiente necessitatibus, facere ipsum.
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi expedita
+      repellendus magni, voluptate excepturi iure quidem modi quaerat odit
+      dolores, optio officiis beatae architecto fugiat mollitia sapiente
+      necessitatibus, facere ipsum.
+    </p>
+    <span style="margin: 90px">title</span>
+
+    <h1>title</h1>
+    <div
+      class="paragraph"
+      style="
+        border: 10px;
+        border-color: red;
+        border-style: solid;
+        border-radius: 20px;
+        width: 50%;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+        /* بتحرك الelement بناء على ما حوله */
+      "
+    >
+      <img
+        src="../public/img1.png"
+        alt=""
+        width="90%"
+        style="border-radius: 50%; border: 1px solid blue; margin: 5px"
+      />
+      <h1
+        style="
+          font-size: 40px;
+          font-family: &quot;Courier New&quot;, Courier, monospace;
+          padding: 10px;
+        "
+      >
+        card title
+      </h1>
+      <p
+        style="
+          font-size: 25px;
+          font-family:
+            &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+        "
+      >
+        <del> Lorem</del> ipsum dolor sit
+        <span style="text-decoration: line-through"> amet</span> consectetur
+        adipisicing elit. Ad suscipit nihil,<strong> excepturi</strong> rem,
+        <b>recusandae</b> tenetur eaque tempore quibusdam rerum
+        <span style="font-weight: 900">assumenda</span> explicabo sunt corrupti
+        numquam impedit odio nemo a fugit obcaecati.
+      </p>
+    </div>
+    <div
+      style="
+        border: 10px;
+        border-color: red;
+        border-style: solid;
+        border-radius: 20px;
+        width: 50%;
+        color: purple;
+        text-align: center;
+        padding: 5px;
+        margin: 5px;
+        background-color: pink;
+        /* بتحرك الelement بناء على ما حوله */
+      "
+    >
+      <img
+        src="../public/img1.png"
+        alt=""
+        width="90%"
+        style="border-radius: 50%; border: 1px solid blue; margin: 5px"
+      />
+      <h1
+        style="
+          font-size: 40px;
+          font-family: &quot;Courier New&quot;, Courier, monospace;
+          padding: 10px;
+        "
+      >
+        card title
+      </h1>
+      <p
+        style="
+          font-size: 25px;
+          font-family:
+            &quot;Segoe UI&quot;, Tahoma, Geneva, Verdana, sans-serif;
+          font-style: oblique;
+        "
+      >
+        <del> Lorem</del> ipsum dolor sit
+        <span style="text-decoration: line-through"> amet</span> consectetur
+        adipisicing elit. Ad suscipit nihil,<strong> excepturi</strong> rem,
+        <b>recusandae</b> tenetur eaque tempore quibusdam rerum
+        <span style="font-weight: 900">assumenda</span> explicabo sunt corrupti
+        numquam impedit odio nemo a fugit obcaecati.
+      </p>
+    </div>
+
+    <!-- internal styling -->
+
+    <div>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem,
+        ipsum repellendus. Voluptate, rem adipisci unde odio at vero molestias
+        id veritatis ipsum dolor blanditiis consequatur perferendis hic fugiat.
+        Eligendi, quasi.
+      </p>
+    </div>
+  </body>
+</html>
